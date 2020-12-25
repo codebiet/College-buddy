@@ -20,7 +20,7 @@ if(!isset($_SESSION['email'])){
 <div class="container" style="width:600px;margin-bottom:185px;">
     <div class="panel panel-success">
         <div class="panel-heading">
-            <center><h2>WELCOME</h2></center>
+            <center><h2>|SELL|</h2></center>
 </div>
         <div class="panel-body">
             <form method="post" action="SELL_script.php" enctype="multipart/form-data">

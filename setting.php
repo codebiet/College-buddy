@@ -12,9 +12,15 @@ require 'common.php';
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
-<?php
-include 'home2.php';
-?>
+ <nav class='navbar navbar-success navbar-fixd-top' style="background-color:#5cb85c;position: sticky;top: 0;z-index: 1;">
+            <div class='container-fluid'>
+            <div class='navbar-header'>
+                <a href="dev.php" class="navbar-brand" style="color:blanchedalmond;font-family: Brush Script MT;font-size: 32px;">College-buddy</a>
+            </div>
+                <div class=' navbar-brand nav-link navbar-right '><a href='logout.php' style="color: white;"><i class="fa fa-power-off"></i>Logout</a></div>
+                  <div class='navbar-brand navbar-right '><a href='home.php' style="color: white;"><i class="fa fa-home"></i>Home</a></div>
+            </div>
+        </nav>
 <div style="width:600px;margin-left:500px;margin-bottom:378px;">
 <h3>Change Password</h3>
 <form method="post" action="settings.php">

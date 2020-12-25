@@ -3,17 +3,25 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/wamp64/www/myproject/dev.php</file>
             <file>file:/C:/wamp64/www/myproject/SELL_script.php</file>
-            <file>file:/C:/wamp64/www/myproject/sign_script.php</file>
-            <file>file:/C:/wamp64/www/myproject/log_script.php</file>
             <file>file:/C:/wamp64/www/myproject/logout.php</file>
-            <file>file:/C:/wamp64/www/myproject/home2.php</file>
+            <file>file:/C:/wamp64/www/myproject/books_script.php</file>
+            <file>file:/C:/wamp64/www/myproject/setting.php</file>
             <file>file:/C:/wamp64/www/myproject/user_detail.php</file>
+            <file>file:/C:/wamp64/www/myproject/settings.php</file>
+            <file>file:/C:/wamp64/www/myproject/components.php</file>
+            <file>file:/C:/wamp64/www/myproject/non_user.php</file>
             <file>file:/C:/wamp64/www/myproject/contact.php</file>
-            <file>file:/C:/wamp64/www/myproject/remove.php</file>
+            <file>file:/C:/wamp64/www/myproject/signup.php</file>
             <file>file:/C:/wamp64/www/myproject/SELL.php</file>
             <file>file:/C:/wamp64/www/myproject/home.php</file>
             <file>file:/C:/wamp64/www/myproject/header.php</file>
+            <file>file:/C:/wamp64/www/myproject/sign_script.php</file>
+            <file>file:/C:/wamp64/www/myproject/home2.php</file>
+            <file>file:/C:/wamp64/www/myproject/remove.php</file>
+            <file>file:/C:/wamp64/www/myproject/other_script.php</file>
+            <file>file:/C:/wamp64/www/myproject/login.php</file>
         </group>
     </open-files>
 </project-private>

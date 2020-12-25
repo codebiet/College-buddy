@@ -36,7 +36,7 @@ if(!isset($_SESSION['email'])){
         <nav class='navbar navbar-success navbar-fixd-top' style="background-color:#5cb85c;position: sticky;top: 0;z-index: 1;">
             <div class='container-fluid'>
             <div class='navbar-header'>
-                <a href="#" class="navbar-brand" style="color:blanchedalmond;font-family: Brush Script MT;font-size: 32px;">College Buddy</a>
+                <a href="dev.php" class="navbar-brand" style="color:blanchedalmond;font-family: Brush Script MT;font-size: 32px;">College-buddy</a>
             </div>
                 <div class=' navbar-brand nav-link navbar-right '><a href='logout.php' style="color: white;"><i class="fa fa-power-off"></i>Logout</a></div>
                 <div class='navbar-brand navbar-right '><a href='setting.php' style="color: white;"><i class="fa fa-cog"></i>Setting</a></div>

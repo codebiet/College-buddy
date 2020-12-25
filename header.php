@@ -8,7 +8,7 @@
 </button>
     
 <a href="user_detail.php" class="nav navbar-nav" style="color:white;margin-top: 1px;margin-right: 20px;"><i class="fa fa-user-circle fa-4x" aria-hidden="true"></i></a>
-<a href="dev.php" class="navbar-brand" style="color:blanchedalmond;font-family: Brush Script MT;font-size: 32px;">College Buddy</a>
+<a href="dev.php" class="navbar-brand" style="color:blanchedalmond;font-family: Brush Script MT;font-size: 32px;">College-buddy</a>
 </div>
 <div class="collapse navbar-collapse" id="rs">
 <ul class="nav navbar-nav navbar-right">
