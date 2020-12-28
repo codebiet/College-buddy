@@ -17,6 +17,6 @@ $final=mysqli_query($con,$data);
 $arr=mysqli_fetch_array($final);
 $_SESSION['email']=$email;
 $_SESSION['id']= mysqli_insert_id($con);
-header('location:home.php');
+header('location:index.php');
 }
 ?>

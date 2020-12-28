@@ -17,7 +17,7 @@ if(!isset($_SESSION['email'])){
     <?php
     require 'home2.php';
     ?>
-<div class="container" style="width:600px;margin-bottom:185px;">
+<div class="container" style="max-width:500px;margin-left:auto;margin-right:auto;">
     <div class="panel panel-success">
         <div class="panel-heading">
             <center><h2>|SELL|</h2></center>
@@ -51,7 +51,7 @@ if(!isset($_SESSION['email'])){
     <textarea name="detail" placeholder="Provide few information about product (like how's product condition,when baught, etc.)" class="form-control" required></textarea>
 </div>
     <div class="form-group">
-        <input type="file" placeholder="upload" class="form-control" name="upload" required>
+        <input type="file" accept="image/*" placeholder="upload" class="form-control" name="upload" required>
 </div>
                 <center>  <button class="btn btn-success btn-block">submit</button></center>
 </form>

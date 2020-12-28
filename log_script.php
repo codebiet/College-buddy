@@ -12,7 +12,7 @@ if($r===0){
     $total=mysqli_fetch_array($boss);
 $_SESSION['email']=$total['email'];
 $_SESSION['id']= $total['id'];
-header('location:home.php');
+header('location:index.php');
 }
 
 ?>

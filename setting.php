@@ -18,7 +18,7 @@ require 'common.php';
                 <a href="dev.php" class="navbar-brand" style="color:blanchedalmond;font-family: Brush Script MT;font-size: 32px;">College-buddy</a>
             </div>
                 <div class=' navbar-brand nav-link navbar-right '><a href='logout.php' style="color: white;"><i class="fa fa-power-off"></i>Logout</a></div>
-                  <div class='navbar-brand navbar-right '><a href='home.php' style="color: white;"><i class="fa fa-home"></i>Home</a></div>
+                <div class='navbar-brand navbar-right '><a href='index.php' style="color: white;"><i class="fa fa-home"></i>Home</a></div>
             </div>
         </nav>
 <div style="width:600px;margin-left:500px;margin-bottom:378px;">

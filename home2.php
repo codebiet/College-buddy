@@ -14,19 +14,18 @@
 <nav class="navbar navbar-success navbar-fixd-top" style="background-color:#5cb85c;position: sticky;top: 0;z-index: 1;">
 <div class="container-fluid">
 <div class="navbar-header">
-<button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#rs">
+    <button type="button" class="navbar-toggle " style="background-color:white;" data-toggle="collapse" data-target="#rs">
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
 </button>
     
-<a href="user_detail.php" class="nav navbar-nav" style="color:white;margin-top: 1px;margin-right: 20px;"><i class="fa fa-user-circle fa-4x" aria-hidden="true"></i></a>
+<a href="user_detail.php" class="nav navbar-nav navbar-brand" style="color:white;margin-top: 1px;margin-right: px;"><i class="fa fa-user-circle fa-2x" aria-hidden="true"></i></a>
 <a href="dev.php" class="navbar-brand" style="color:blanchedalmond;font-family: Brush Script MT;font-size: 32px;">College-buddy</a>
 </div>
 <div class="collapse navbar-collapse" id="rs">
 <ul class="nav navbar-nav navbar-right">
-    <li class="" style="margin-right: 15px;"><a href="home.php" style="color:white;font-size: 20px;"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
-    <li class="" style="margin-right: 15px;"><a href="SELL.php" style="color:white;font-size: 20px;"><i class="fa fa-cubes" aria-hidden="true"></i>SELL</a></li>
+    <li class="" style="margin-right: 15px;"><a href="index.php" style="color:white;font-size: 20px;"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
 <li class="nav-item dropdown"style="margin-right: 15px;">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" style="color:white;font-size: 20px;">
             <i class="fa fa-list" aria-hidden="true"></i>Category
@@ -43,3 +42,4 @@
 </div>
 </div>
 </nav>
+    <a href="SELL.php" style="color:white;font-size: 20px;"><div class="text-center" style="width:250px;margin-left: auto;margin-right: auto;margin-bottom:15px;border-radius:20px;background-color:#5cb85c;position: sticky;top : 0;z-index: 1;"><i class="fa fa-cubes" aria-hidden="true"></i>SELL</div></a>

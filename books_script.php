@@ -14,6 +14,12 @@ require 'common.php';
             color: black !important;
             cursor: pointer;
         }
+        #background-image{
+            
+           border:2px #5cb85c solid;
+           border-radius: 0px 0px 25px 25px;
+           margin-bottom: 15px;
+        }
     </style>
     </head>
     <?php
@@ -28,11 +34,11 @@ require 'common.php';
         <tbody>
                     <?php
                     while($row=mysqli_fetch_array($cf)){
-                        echo "<div class='text-center'><div class='col-md-3 col-xs-6 home-feature'><img src='".$row['filename']."' height='30%' width='90%'><div class='caption'><h3>Rs ".$row['price']."<h3><details><summary>".$row['product']."</summary><p>".$row['discription']."</p></details><h4>".$row['name']."</h4><h4>Contact:".$row['contact']."</h4><p>Addr:-".$row['address']."</p></div></div></div>";
+                        echo "<div class='text-center'><div class='col-md-3 col-xs-6 home-feature'><div id='background-image'><img src='".$row['filename']."' height='30%' width='99%'><div class='caption'><h3>Rs ".$row['price']."<h3><details><summary>".$row['product']."</summary><p>".$row['discription']."</p></details><h4>".$row['name']."</h4><h4>Contact:".$row['contact']."</h4><p>Addr:-".$row['address']."</p></div></div></div></div>";
                         
                     }
         ?>
          </tbody>
-        </table>>
+        </table>
     </body>
 </html>

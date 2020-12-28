@@ -22,7 +22,7 @@ $result=mysqli_query($con,$insert);
     </head>
     <body>
         <?php
-        header('location:home.php');
+        header('location:index.php');
         ?>
     </body>
 </html>

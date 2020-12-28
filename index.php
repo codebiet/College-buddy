@@ -34,7 +34,7 @@ require 'common.php';
                     <?php
                     
                     while($row=mysqli_fetch_array($cf)){
-                        echo "<div class='text-center' ><div class='col-md-3 col-xs-6 home-feature'><div id='background-image' ><img src='".$row['filename']."' height='30%' width='99%' ><div class='caption'><h3><b>Rs ".$row['price']."</b></h3><details><summary style='font-size:20px;'>".$row['product']."</summary><tt style='font-size:10px;'>".$row['discription']."</tt></details><h4>".$row['name']."</h4><h4>Contact:".$row['contact']."</h4><p>Addr:-".$row['address']."</p></div></div></div>";
+                        echo "<div class='text-center' ><div class='col-md-3 col-xs-6 home-feature'><div id='background-image' ><img src='".$row['filename']."' height='20%' width='99%' ><div class='caption'><h3><b>Rs ".$row['price']."</b></h3><details><summary style='font-size:20px;'>".$row['product']."</summary><tt style='font-size:10px;'>".$row['discription']."</tt></details><h4>".$row['name']."</h4><h4>Cont:".$row['contact']."</h4><p>Addr:-".$row['address']."</p></div></div></div>";
                         
                     }
         ?>

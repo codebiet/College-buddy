@@ -18,8 +18,8 @@ margin-top:50px;
     <?php
     include 'home2.php';
     ?>
-<div class=" column"style="width:600px;margin-left:500px;margin-bottom:230px;">
-<div class="panel panel-success">
+<div class="column" >
+<div class="panel panel-success" style="max-width:500px;margin-left:auto;margin-right:auto;">
 <div class="panel-heading">
 <h3>LOGIN</h3>
 </div>
